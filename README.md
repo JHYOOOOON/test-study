@@ -62,3 +62,18 @@ udemy에서 테스팅 라이브러리 강의를 듣고 정리한 내용
 - user-event
   - 모든 상호 작용을 시뮬레이션
   - 항상 Promise를 반환
+
+## screen query methods
+
+- command
+  - get: DOM 내에 있을 거라 예상되는 element
+  - query: DOM 내에 없을 거라 예상되는 element
+  - find: element가 비동기적으로 나타날 경우를 예상
+- QueryType
+  - Role
+  - AltText
+  - Text
+  - Form elements
+    - PlaceholderText
+    - LabelText
+    - DisplayValue
